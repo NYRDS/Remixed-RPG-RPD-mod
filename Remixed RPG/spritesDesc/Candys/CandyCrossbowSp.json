@@ -1,0 +1,32 @@
+{
+   "texture" : "mobs/CandyCrossbow.png",
+   "width" : 16,
+   "height" : 16,
+"zapEffect":"CommonArrow",
+   "idle" : {
+      "fps" : 1,
+      "looped" : true,
+      "frames" : [0]
+   },
+   "run" : {
+      "fps" : 10,
+      "looped" : true,
+      "frames" : [3,4,5,0]
+   },
+   "attack" : {
+      "fps" : 6,
+      "looped" : false,
+      "frames" : [1,2]
+   },
+"zap":{
+"fps":6,
+"looped":false,
+"frames":[1,2]
+},
+   "die" : {
+      "fps" : 5,
+      "looped" : false,
+      "frames" : [6,7,8]
+   }
+
+}

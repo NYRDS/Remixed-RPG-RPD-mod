@@ -1,0 +1,32 @@
+{
+   "texture" : "mobs/Draugr.png",
+   "width" : 18,
+   "height" : 18,
+"zapEffect":"Ice",
+   "idle" : {
+      "fps" : 1,
+      "looped" : true,
+      "frames" : [0, 1]
+   },
+   "run" : {
+      "fps" : 10,
+      "looped" : true,
+      "frames" : [2,3,4,5]
+   },
+   "attack" : {
+      "fps" : 11,
+      "looped" : false,
+      "frames" : [6,7,8,8]
+   },
+"zap":{
+"fps":6,
+"looped":false,
+"frames":[6,9]
+},
+   "die" : {
+      "fps" : 8,
+      "looped" : true,
+      "frames" : [0]
+   }
+
+}

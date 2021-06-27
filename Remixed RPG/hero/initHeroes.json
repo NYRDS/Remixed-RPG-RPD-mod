@@ -1,0 +1,57 @@
+{
+  "common": {
+    "armor": {
+      "kind": "ClothArmor",
+      "identified": true,
+      "level":1
+    },
+    "items": [
+        {
+            "kind":"Gold",
+            "quantity":100
+        }
+    ],
+    "str":9,
+    "hp": 10,
+    "magicAffinity": "Common",
+    "sp": 1,
+    "maxSp": 1
+  },
+  "non_expert": {
+    "items": [
+      {
+        "kind": "Gold",
+        "quantity":100
+      }
+    ]
+  },
+  "WARRIOR": {
+    "str": 9,
+    "sp":1,
+    "maxSp":1,
+    "knownItems": [
+      {
+        "kind": "PotionOfStrength"
+      },
+      {
+          "kind": "ScrollOfUpgrade"
+      }
+    ],
+    "isSpellUser": true,
+    "magicAffinity": "Combat"
+  },
+  "LICH": {
+    "immunities": [
+      "Paralysis",
+      "ToxicGas",
+      "Terror",
+      "Death",
+      "Amok",
+      "Blindness",
+      "Sleep",
+      "Poison",
+      "Vertigo",
+      "Bleeding"
+    ]
+  }
+}

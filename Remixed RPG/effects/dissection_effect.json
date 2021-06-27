@@ -1,0 +1,6 @@
+{
+  "texture" : "effects/dissection_sprite.png",
+  "width"  : 48,
+  "height" : 48,
+  "anim"   : { "fps" : 15,  "looped" : false,    "frames" : [0,1,2,3,4] }
+}

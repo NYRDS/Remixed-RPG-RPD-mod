@@ -1,0 +1,19 @@
+{
+"defenseSkill":4,
+"attackSkill":12,
+"exp":5,
+"maxlevel":30,
+"dr":16,
+"dmgMin":3,
+"dmgMax":5,
+"baseSpeed":0,
+"attackDelay":0,
+"ht":1000,
+"name":"Мокрица",
+"name_objective":"Мокрицу",
+"description":"Гигантское насекомое, по размеру больше местных крабов. Они обитают во влажных местах, таких как канализация. Но лишь одно остаётся загадкой, как они так выросли?",
+"gender":"masculine",
+"spriteDesc":"spritesDesc/Woodlouise_sp.json",
+"walkingType":"NORMAL",
+"canBePet":true
+}

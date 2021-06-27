@@ -1,0 +1,9 @@
+{
+  "texture" : "mobs/TermitQueen.png",
+  "width"  : 32,
+  "height" : 16,
+  "idle"   : { "fps" :1 ,  "looped" : true,     "frames" : [0,1,0,2] },
+  "run"    : { "fps" : 3, "looped" : true,     "frames" : [1,0,2] },
+  "zap"    : { "fps" : 10, "looped" : false,    "frames" : [3,4,5] },
+  "die"    : { "fps" : 9, "looped" : true,    "frames" : [6,7] }
+}

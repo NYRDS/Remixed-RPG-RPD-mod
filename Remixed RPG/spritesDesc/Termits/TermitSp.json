@@ -1,0 +1,9 @@
+{
+  "texture" : "mobs/Termit.png",
+  "width"  : 16,
+  "height" : 16,
+  "idle"   : { "fps" :1 ,  "looped" : true,     "frames" : [0,1,0,2] },
+  "run"    : { "fps" : 25, "looped" : true,     "frames" : [0,3,4,5,6,7,8,7,6,5,4,3] },
+  "attack" : { "fps" : 13, "looped" : false,    "frames" : [9,10,11] },
+  "die"    : { "fps" : 10, "looped" : false,    "frames" : [12,13,14,15] }
+}

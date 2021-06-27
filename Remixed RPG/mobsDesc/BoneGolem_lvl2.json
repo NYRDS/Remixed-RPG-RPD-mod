@@ -1,0 +1,21 @@
+{
+"defenseSkill":15,
+"attackSkill":18,
+"exp":0,
+"maxlevel":30,
+"dr":10,
+"dmgMin":8,
+"dmgMax":13,
+"baseSpeed":1,
+"attackDelay":1,
+"ht":24,
+"name":"Костяной голем[2 уровень]",
+"name_objective":"Костяного голема",
+"description":"Существо созданое из костей погибших этого подземелья.",
+"gender":"masculine",
+"spriteDesc":"spritesDesc/BoneGolem_lvl2_sp.json",
+"scriptFile":"scripts/mobs/BoneGolem",
+"walkingType":"NORMAL",
+"aiState":"Hunting",
+"canBePet":true
+}

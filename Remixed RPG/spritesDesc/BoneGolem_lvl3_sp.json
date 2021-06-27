@@ -1,0 +1,9 @@
+{
+  "texture" : "mobs/bone_golem_lvl3.png",
+  "width"  : 16,
+  "height" : 18,
+  "idle"   : { "fps" :1,  "looped" : true,     "frames" : [0,1,0,0,2] },
+  "run"    : { "fps" : 14, "looped" : true,     "frames" : [3,4,5,6,7,8,9,10]},
+  "attack" : { "fps" : 15, "looped" : false,    "frames" : [11,12,13,14,15,16,17]},
+  "die"    : { "fps" : 7, "looped" : false,    "frames" : [18,19,20,21,22] }
+}

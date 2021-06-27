@@ -1,0 +1,6 @@
+{
+  "texture" : "effects/soulabsorbing_sprite.png",
+  "width"  : 17,
+  "height" : 17,
+  "anim"   : { "fps" : 60,  "looped" : false,    "frames" : [0,1,2,3,4,5,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6] }
+}

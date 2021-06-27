@@ -1,0 +1,6 @@
+{
+  "texture" : "effects/blood_aura.png",
+  "width"  : 64,
+  "height" : 64,
+  "anim"   : { "fps" : 18,  "looped" : false,    "frames" : [0,1,2,3,4,5,4,3,2,1,0] }
+}
