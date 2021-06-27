@@ -37,23 +37,23 @@ local RPG
  boneId = boneId,
  
  physStr = function()
-   return RPG.physicStr+RPG.physicStrB+RPG.physicStrA
+   return (RPG.physicStr or 1)+(RPG.physicStrB or 0)+(RPG.physicStrA or 0)
  end,
  
  magStr = function()
-   return RPG.magicStr+RPG.magicStrA
+   return (RPG.magicStr or 1)+(RPG.magicStrA or 0)
  end,
  
  AllFast = function()
-   return RPG.fast+RPG.fastA
+   return (RPG.fast or 1)+(RPG.fastA or 0)
  end,
  
  AllSpRegen = function()
-   return RPG.spRegen+RPG.spRegenA
+   return (RPG.spRegen or 1)+(RPG.spRegenA or 0)
  end,
  
  AllLuck = function()
-   return RPG.luck + RPG.luckA
+   return (RPG.luck or 1) + (RPG.luckA  or 0)
  end,
  
  itemStrBonus = function(str)
